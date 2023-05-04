@@ -1,6 +1,21 @@
-# windows wsl 
+# windows wsl ubuntu
 
-- 运行编译指令： tools/bazel build --config=target -c opt //:target
+- 运行python脚本：
+```
+python3 make_release.py
+```
+- 运行编译指令： 
+```
+tools/bazel build --config=target -c opt //:target
+```
+
+# windows cmd
+
+```
+python3 -m moteus_gui.tview --devices=1
+tview
+```
+
 
 # moteus brushless servo #
 
