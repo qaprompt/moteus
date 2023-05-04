@@ -1,3 +1,7 @@
+# windows wsl 
+
+- 运行编译指令： tools/bazel build --config=target -c opt //:target
+
 # moteus brushless servo #
 
 This contains full designs for the moteus brushless servo actuator,
